@@ -39,11 +39,6 @@
     &__item {
       width: 25%;
       padding: 10px;
-      &__image {
-        width: 100%;
-        aspect-ratio: 1/1;
-        background-color: rgb(78, 75, 236);
-      }
       &__name {
         font-size: 20px;
         font-weight: bold;
@@ -61,13 +56,13 @@
 }
 
 @keyframes blinking {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
